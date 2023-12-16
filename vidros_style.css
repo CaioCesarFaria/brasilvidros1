@@ -1,0 +1,119 @@
+/* IMPORTANDO OS ESTILOS JA DEFINIDOS DO STYLE.CSS */
+
+@import url('style.css');
+
+
+:root {
+    --azul-marinho: #11374D;
+    --azul-normal: #115F8C;
+    --azul-esverdeado: #3CA6B0;
+    --cor-de-fundo: #FFFFFF;
+    --cor-header: #D9D9D9;
+    --fonte-principal: 'Alegreya Sans', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100svh;
+    overflow-y: auto;
+    width: 100%;
+
+}
+
+/* BANNER VIDROS */
+.banner_vidros {
+    background-image: url(./assets/img/fundo_carrossel.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(30%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_vidros img {
+    padding-top: 20px;
+}
+
+.banner_vidros h1 {
+    color: var(--azul-esverdeado);
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner_vidros p {
+    color: var(--cor-de-fundo);
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 1.5rem;
+}
+
+.vidros_temperados {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    width: 100%;
+}
+
+.vidros_tipo {
+    color: var(--azul-marinho);
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.vidros_temperados img {
+    border-radius: 0.625rem;
+    justify-content: center;
+}
+
+.vidros_temperados p {
+    color: var(--azul-normal);
+    font-family: var(--fonte-principal);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+    padding: 1rem 3rem;
+}
+
+.vidros_temperados h3 {
+    color: var(--azul-esverdeado);
+    text-decoration: underline;
+    font-family: var(--fonte-principal);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 40vw;
+}
+
+.vidros_caracteristicas li {
+    color: var(--azul-normal);
+    font-family: var(--fonte-principal);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 2.1rem;
+}
